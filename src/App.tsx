@@ -322,7 +322,7 @@ export default function App() {
               <ArrowUpRight className="w-4 h-4" />
             </button>
             <a
-              href="/resume.pdf" target="_blank"
+              href="/Vivek Dhavali DS.pdf" target="_blank" rel="noopener noreferrer"
               className="px-7 py-3.5 rounded-lg bg-white border border-[#D8CFC5] text-[#111111] text-sm font-semibold hover:border-[#9A0002] hover:bg-[#FAF7F4] hover:text-[#9A0002] transition-all duration-300"
             >
               Download Resume
@@ -332,8 +332,8 @@ export default function App() {
         <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-[400px] lg:h-[400px] relative flex-shrink-0">
           <div className="absolute inset-0 bg-[#D8CFC5] rounded-full blur-3xl opacity-30 animate-pulse"></div>
           <div className="relative w-full h-full rounded-full border-4 border-[#FFFFFF] bg-white shadow-xl overflow-hidden">
-            <img src="/vivek.png" alt="Vivekanand Dhavali" className="w-full h-full object-cover grayscale-[10%] hover:grayscale-0 transition-all duration-700 hover:scale-105" 
-                 onError={(e) => { (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600" }} />
+            <img src="/vivekk.jpg" alt="Vivekanand Dhavali" className="w-full h-full object-cover grayscale-[10%] hover:grayscale-0 transition-all duration-700 hover:scale-105"
+              onError={(e) => { (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600" }} />
           </div>
         </div>
       </div>
@@ -341,7 +341,7 @@ export default function App() {
       {/* Metrics Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-10">
         {[
-          { label: 'Years Experience', value: '5+', icon: <Briefcase className="w-6 h-6" /> },
+          { label: 'Years Experience', value: '6+', icon: <Briefcase className="w-6 h-6" /> },
           { label: 'Global Properties', value: '5K+', icon: <Database className="w-6 h-6" /> },
           { label: 'Model Precision', value: '91%', icon: <TrendingUp className="w-6 h-6" /> }
         ].map((stat, i) => (
@@ -363,7 +363,7 @@ export default function App() {
         <h3 className="font-display text-3xl font-black text-[#111111] mb-6">About Me</h3>
         <div className="space-y-6 text-[#3F3F3F] text-lg leading-relaxed">
           <p>
-            I am a results-oriented Data Scientist with over 5 years of experience delivering machine learning models, analytics systems, and database interfaces in large-scale environments. My primary focus lies in the hospitality and e-commerce spaces, where customer loyalty models directly affect bottom-line revenues.
+            I am a results-oriented Data Scientist with over 6+ years of experience delivering machine learning models, analytics systems, and database interfaces in large-scale environments. My primary focus lies in the hospitality and e-commerce spaces, where customer loyalty models directly affect bottom-line revenues.
           </p>
           <p>
             Before consulting, I spent years in technical support, order-management analytics, and supply-chain logistics. This coordination background allows me to communicate easily with engineering squads and commercial executives alike, ensuring that analytical systems are robust and aligned with business objectives.
@@ -592,7 +592,7 @@ export default function App() {
 
           {/* Social Icons & Mobile Menu */}
           <div className="flex items-center gap-3">
-            <a href="https://linkedin.com/in/vivekdhavali/" target="_blank" rel="noreferrer" className="hidden sm:flex items-center justify-center w-10 h-10 rounded-xl border border-[#D8CFC5] bg-white text-[#111111] hover:bg-[#9A0002] hover:text-white hover:border-[#9A0002] transition-all shadow-sm">
+            <a href="https://www.linkedin.com/in/vivek-dhavali-9143821a5/" target="_blank" rel="noreferrer" className="hidden sm:flex items-center justify-center w-10 h-10 rounded-xl border border-[#D8CFC5] bg-white text-[#111111] hover:bg-[#9A0002] hover:text-white hover:border-[#9A0002] transition-all shadow-sm">
               <Linkedin className="w-4 h-4" />
             </a>
             <button className="md:hidden w-10 h-10 flex items-center justify-center rounded-xl border border-[#D8CFC5] bg-white text-[#111111] shadow-sm" onClick={() => setMenuOpen(!menuOpen)}>
